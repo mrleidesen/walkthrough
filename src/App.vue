@@ -6,7 +6,7 @@
             color="primary" 
             dark
         >
-            <v-toolbar-title class="subtitle-1">走穿-游戏攻略收集</v-toolbar-title>
+            <v-toolbar-title class="subtitle-1">走穿-汉化收集</v-toolbar-title>
         </v-app-bar>
 
         <v-btn
@@ -35,7 +35,9 @@
 
         <v-main>
             <v-container fluid>
-                <v-row v-show="getFilterList.length > 0">
+                <v-row 
+                    v-show="getFilterList.length > 0"
+                >
                     <v-col 
                         v-for="item in getFilterList"
                         :key="item.en"
@@ -56,7 +58,7 @@
                             </v-img>
                             <v-card-text>
                                 <p class="mb-1">游戏名：{{ `${item.cn} ${item.en}` }}</p>
-                                <p class="mb-1">作者：{{ item.author }}</p>
+                                <p class="mb-1">中文：{{ item.hasCN }}</p>
                                 <p class="mb-1">来源：{{ item.source }}</p>
                             </v-card-text>
                         </v-card>
@@ -71,7 +73,7 @@
 </template>
 
 <script>
-import { WALK_THROUGH } from './mock';
+import {WALK_THROUGH} from './mock';
 
 export default {
     name: 'App',
@@ -86,7 +88,12 @@ export default {
         getFilterList() {
             const {search, list} = this;
             if (search) {
-                return list.filter(item => item.cn.match(search) || item.en.match(search));
+                return list.filter(
+                    item => (
+                        item.cn.match(search) 
+                        || item.en.toLowerCase().match(search.toLowerCase())
+                    )
+                );
             }
             return list;
         }
@@ -97,5 +104,8 @@ export default {
 <style>
 .v-image {
     background-color: #333;
+}
+#app.v-application * {
+    font-family: "Roboto", 'Segoe UI', Helvetica, Tahoma, Arial, serif, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei" !important;
 }
 </style>
