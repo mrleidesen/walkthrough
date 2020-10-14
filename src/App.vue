@@ -55,7 +55,7 @@ export default {
     name: 'App',
 
     data: () => ({
-        list: WALK_THROUGH
+        list: [...WALK_THROUGH]
     }),
 };
 </script>
