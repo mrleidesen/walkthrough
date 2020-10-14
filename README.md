@@ -1,24 +1,8 @@
-# walkthrough
+# 走穿 - 收集游戏汉化
 
-## Project setup
-```
-yarn install
-```
+## 初衷
+为了更加方便寻找汉化补丁，不再被垃圾搜索引擎欺骗
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 收集
+* 如果您也想提交，可以直接留issues
+* 如果您觉得我侵权了，请告知我，立即删除
