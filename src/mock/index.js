@@ -23,4 +23,12 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t527436-1-2' 
     },
+    { 
+        en: 'Silent Hill 4 The Room', 
+        cn: '寂静岭4闭室', 
+        cover: 'http://tiebapic.baidu.com/forum/w%3D580/sign=41b8f95d239b033b2c88fcd225cf3620/c93a510fd9f9d72af5cbf444c32a2834359bbbb7.jpg',
+        source: '百度贴吧',
+        hasCN: '汉化补丁',
+        link: 'https://tieba.baidu.com/p/6920265392' 
+    },
 ]
