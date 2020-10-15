@@ -7,6 +7,14 @@
             dark
         >
             <v-toolbar-title class="subtitle-1">走穿-汉化收集</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn 
+                icon 
+                href="https://github.com/mrleidesen/walkthrough"
+                target="_blank"
+            >
+                <v-icon>mdi-github</v-icon>
+            </v-btn>
         </v-app-bar>
 
         <v-btn
@@ -23,10 +31,12 @@
             <v-sheet height="150px">
                 <v-row justify="center">
                     <v-col cols="8">
-                        <v-text-field 
-                            v-model="search"
+                        <v-text-field
+                            :value="search"
                             label="搜索"
+                            @input="onChangeInput"
                             clearable
+                            autofocus
                         ></v-text-field>
                     </v-col>
                 </v-row>
@@ -35,9 +45,7 @@
 
         <v-main>
             <v-container fluid>
-                <v-row 
-                    v-show="getFilterList.length > 0"
-                >
+                <v-row v-show="getFilterList.length > 0">
                     <v-col 
                         v-for="item in getFilterList"
                         :key="item.en"
@@ -74,6 +82,7 @@
 
 <script>
 import {WALK_THROUGH} from './mock';
+import debounce from 'lodash.debounce';
 
 export default {
     name: 'App',
@@ -81,7 +90,8 @@ export default {
     data: () => ({
         list: [...WALK_THROUGH],
         search: '',
-        sheet: false
+        sheet: false,
+        timer: null
     }),
 
     computed: {
@@ -98,6 +108,12 @@ export default {
             return list;
         }
     },
+
+    methods: {
+        onChangeInput: debounce(function (value) {
+            this.search = value;
+        }, 500),
+    }
 };
 </script>
 

@@ -1,11 +1,22 @@
+/**
+ * 数据模板
+ * { 
+        en: '', // 英文名
+        cn: '', // 中文名，若没有则省略
+        cover: '', // 封面
+        source: '', // 补丁来源网站
+        hasCN: '', // 是繁体补丁还是简体补丁
+        link: '', // 原帖链接，拒绝辣鸡链接
+    },
+ */
 export const WALK_THROUGH = [
     { 
-        en: 'Outlast', 
-        cn: '逃生', 
-        cover: 'https://steamcdn-a.akamaihd.net/steam/apps/238320/header.jpg?t=1591922362',
-        source: '其乐社区',
-        hasCN: '繁体汉化补丁',
-        link: 'https://keylol.com/t464503-1-1' 
+        en: 'Outlast', // 英文名
+        cn: '逃生', // 中文名，若没有则省略
+        cover: 'https://steamcdn-a.akamaihd.net/steam/apps/238320/header.jpg?t=1591922362', // 封面
+        source: '其乐社区', // 补丁来源网站
+        hasCN: '繁体汉化补丁', // 是繁体补丁还是简体补丁
+        link: 'https://keylol.com/t464503-1-1', // 原帖链接，拒绝辣鸡链接
     },
     { 
         en: 'Pillars of Eternity', 
