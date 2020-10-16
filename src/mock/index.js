@@ -50,4 +50,6 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t130226-1-1' 
     },
-]
+];
+
+export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();

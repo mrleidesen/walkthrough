@@ -62,12 +62,12 @@
                                 height="150px"
                                 :src="item.cover"
                             >
-                                <v-card-title class="subtitle-1">{{ item.cn }}</v-card-title>
+                                <v-card-title class="subtitle-1">{{ item.cn || item.en }}</v-card-title>
                             </v-img>
                             <v-card-text>
-                                <p class="mb-1">游戏名：{{ `${item.cn} ${item.en}` }}</p>
-                                <p class="mb-1">中文：{{ item.hasCN }}</p>
-                                <p class="mb-1">来源：{{ item.source }}</p>
+                                <p class="mb-1 text-no-wrap text-truncate">游戏名：{{ `${item.cn} ${item.en}` }}</p>
+                                <p class="mb-1 text-no-wrap text-truncate">中文：{{ item.hasCN }}</p>
+                                <p class="mb-1 text-no-wrap text-truncate">来源：{{ item.source }}</p>
                             </v-card-text>
                         </v-card>
                     </v-col>
@@ -81,14 +81,14 @@
 </template>
 
 <script>
-import {WALK_THROUGH} from './mock';
+import {WALK_THROUGH_REVERSE} from './mock';
 import debounce from 'lodash.debounce';
 
 export default {
     name: 'App',
 
     data: () => ({
-        list: [...WALK_THROUGH],
+        list: [...WALK_THROUGH_REVERSE],
         search: '',
         sheet: false,
         timer: null
