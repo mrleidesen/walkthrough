@@ -50,6 +50,14 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t130226-1-1' 
     },
+    { 
+        en: 'Amnesia Rebirth', 
+        cn: '失忆症：重生', 
+        cover: 'https://steamcdn-a.akamaihd.net/steam/apps/999220/header.jpg?t=1603296432',
+        source: '游侠网',
+        hasCN: '汉化补丁',
+        link: 'https://game.ali213.net/thread-6902700-1-1.html' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
