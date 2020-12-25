@@ -58,6 +58,30 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://game.ali213.net/thread-6902700-1-1.html' 
     },
+    { 
+        en: 'Deus Ex: Human Revolution', 
+        cn: '杀出重围：人类革命', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/238010/header.jpg',
+        source: 'Steam组天邈汉化',
+        hasCN: '汉化补丁',
+        link: 'https://steamcommunity.com/groups/tianmiao/discussions/0/1471967615878483558/' 
+    },
+    { 
+        en: 'METAL GEAR SOLID V: THE PHANTOM PAIN', 
+        cn: '合金装备V：幻痛/潜龙谍影V：幻痛', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/287700/header.jpg',
+        source: '其乐社区',
+        hasCN: '汉化补丁',
+        link: 'https://keylol.com/t412748-1-1' 
+    },
+    { 
+        en: 'METAL GEAR SOLID V: GROUND ZEROES', 
+        cn: '合金装备V：原爆点/潜龙谍影V：原爆点', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/311340/header.jpg',
+        source: '其乐社区',
+        hasCN: '汉化补丁',
+        link: 'https://keylol.com/t423652-1-1' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
