@@ -70,9 +70,9 @@ export const WALK_THROUGH = [
         en: 'METAL GEAR SOLID V: THE PHANTOM PAIN', 
         cn: '合金装备V：幻痛/潜龙谍影V：幻痛', 
         cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/287700/header.jpg',
-        source: '其乐社区',
+        source: '3DM@delta333',
         hasCN: '汉化补丁',
-        link: 'https://keylol.com/t412748-1-1' 
+        link: 'https://bbs.3dmgame.com/thread-5487810-1-1.html' 
     },
     { 
         en: 'METAL GEAR SOLID V: GROUND ZEROES', 
