@@ -82,6 +82,14 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t423652-1-1' 
     },
+    { 
+        en: 'Silent Hill: Homecoming', 
+        cn: '寂静岭：归乡', 
+        cover: 'https://blob.keylol.com/forum/202102/06/091722bexm8qp8gp41m55m.jpg',
+        source: '其乐社区@catabridge',
+        hasCN: '汉化补丁',
+        link: 'https://keylol.com/t647124-1-1' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
