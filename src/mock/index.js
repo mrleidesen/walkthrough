@@ -47,7 +47,7 @@ export const WALK_THROUGH = [
         cn: '黑山起源', 
         cover: 'https://steamcdn-a.akamaihd.net/steam/apps/362890/header.jpg?t=1593070451',
         source: '其乐社区',
-        hasCN: '汉化补丁',
+        hasCN: '注：已经更新官方中文',
         link: 'https://keylol.com/t130226-1-1' 
     },
     { 
