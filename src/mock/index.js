@@ -32,7 +32,7 @@ export const WALK_THROUGH = [
         cover: 'https://media.st.dl.pinyuncloud.com/steam/apps/214490/header_alt_assets_0.jpg?t=1602262841',
         source: '其乐社区',
         hasCN: '汉化补丁',
-        link: 'https://keylol.com/t527436-1-1' 
+        link: 'https://keylol.com/t202106-1-1' 
     },
     { 
         en: 'Silent Hill 4 The Room', 
@@ -89,6 +89,14 @@ export const WALK_THROUGH = [
         source: '其乐社区@catabridge',
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t647124-1-1' 
+    },
+    { 
+        en: 'Axiom Verge', 
+        cn: '公理边缘', 
+        cover: 'https://cdn.akamai.steamstatic.com/steam/apps/332200/header.jpg?t=1585703399',
+        source: 'Codebay',
+        hasCN: '汉化补丁',
+        link: 'https://www.codebay.in/2019/12/axiomverge-cht-mod.html' 
     },
 ];
 
