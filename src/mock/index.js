@@ -98,6 +98,14 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://www.codebay.in/2019/12/axiomverge-cht-mod.html' 
     },
+    { 
+        en: 'Dead Space', 
+        cn: '死亡空间', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/17470/header.jpg?t=1627662753',
+        source: '3DM/Keylol',
+        hasCN: '汉化补丁以及部分问题',
+        link: 'https://keylol.com/t543805-1-12' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
