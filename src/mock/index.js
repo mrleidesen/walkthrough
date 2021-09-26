@@ -46,17 +46,17 @@ export const WALK_THROUGH = [
         en: 'Black Mesa', 
         cn: '黑山起源', 
         cover: 'https://steamcdn-a.akamaihd.net/steam/apps/362890/header.jpg?t=1593070451',
-        source: '其乐社区',
-        hasCN: '注：已经更新官方中文',
-        link: 'https://keylol.com/t130226-1-1' 
+        source: '官方中文',
+        hasCN: '官方中文',
+        link: '#' 
     },
     { 
         en: 'Amnesia Rebirth', 
         cn: '失忆症：重生', 
         cover: 'https://steamcdn-a.akamaihd.net/steam/apps/999220/header.jpg?t=1603296432',
-        source: '游侠网',
-        hasCN: '汉化补丁',
-        link: 'https://game.ali213.net/thread-6902700-1-1.html' 
+        source: '官方中文',
+        hasCN: '官方中文',
+        link: '#' 
     },
     { 
         en: 'Deus Ex: Human Revolution', 
