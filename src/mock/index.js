@@ -106,6 +106,14 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁以及部分问题',
         link: 'https://keylol.com/t543805-1-12' 
     },
+    { 
+        en: '428: Shibuya Scramble', 
+        cn: '428 被封锁的涩谷', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/648580/header.jpg?t=1635756427',
+        source: 'Bilibili@希望的东东',
+        hasCN: '汉化补丁',
+        link: 'https://t.bilibili.com/663052464174399513?spm_id_from=333.999.0.0' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
