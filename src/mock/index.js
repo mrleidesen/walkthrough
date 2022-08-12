@@ -114,6 +114,14 @@ export const WALK_THROUGH = [
         hasCN: '汉化补丁',
         link: 'https://t.bilibili.com/663052464174399513?spm_id_from=333.999.0.0' 
     },
+    { 
+        en: 'Grand Theft Auto IV: The Complete Edition', 
+        cn: 'GTA4', 
+        cover: 'https://cdn.cloudflare.steamstatic.com/steam/apps/12210/header.jpg?t=1618853493',
+        source: 'GTA4汉化组',
+        hasCN: '汉化补丁',
+        link: 'https://b9348.gitee.io/index.html' 
+    },
 ];
 
 export const WALK_THROUGH_REVERSE = WALK_THROUGH.reverse();
