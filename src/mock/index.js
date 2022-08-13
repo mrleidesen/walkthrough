@@ -21,7 +21,7 @@ export const WALK_THROUGH = [
     { 
         en: 'Pillars of Eternity', 
         cn: '永恒之柱', 
-        cover: 'https://media.st.dl.pinyuncloud.com/steam/apps/291650/header.jpg?t=1589873307',
+        cover: 'https://media.st.dl.eccdnx.com/steam/apps/291650/header.jpg?t=1615973823',
         source: '其乐社区',
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t334498-1-1' 
@@ -29,7 +29,7 @@ export const WALK_THROUGH = [
     { 
         en: 'Alien: Isolation', 
         cn: '异形隔离', 
-        cover: 'https://media.st.dl.pinyuncloud.com/steam/apps/214490/header_alt_assets_0.jpg?t=1602262841',
+        cover: 'https://media.st.dl.eccdnx.com/steam/apps/214490/header.jpg?t=1603026039',
         source: '其乐社区',
         hasCN: '汉化补丁',
         link: 'https://keylol.com/t202106-1-1' 
@@ -48,7 +48,7 @@ export const WALK_THROUGH = [
         cover: 'https://steamcdn-a.akamaihd.net/steam/apps/362890/header.jpg?t=1593070451',
         source: '官方中文',
         hasCN: '官方中文',
-        link: '#' 
+        link: 'https://store.steampowered.com/app/362890/Black_Mesa/' 
     },
     { 
         en: 'Amnesia Rebirth', 
@@ -56,7 +56,7 @@ export const WALK_THROUGH = [
         cover: 'https://steamcdn-a.akamaihd.net/steam/apps/999220/header.jpg?t=1603296432',
         source: '官方中文',
         hasCN: '官方中文',
-        link: '#' 
+        link: 'https://store.steampowered.com/app/999220/Amnesia_Rebirth/' 
     },
     { 
         en: 'Deus Ex: Human Revolution', 
